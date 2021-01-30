@@ -57,7 +57,7 @@ THEN that will be shown on the page, and added to their transaction history when
 
 * You are required to submit the following:
 
-  * the URL to the deployed application
+  * the URL to the deployed application : https://salty-cove-28019.herokuapp.com/
 
-  * the URL to the Github repository
+  * the URL to the Github repository : https://github.com/gamezsal/18PWABudgetTracker
 
