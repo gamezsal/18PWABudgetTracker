@@ -43,6 +43,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="db.js"></script>
   <script src="index.js"></script>
 
   <!-- Register service worker -->
@@ -55,10 +56,10 @@
       });
     }
   </script>
+<!-- 
+  Install and run indexDB -->
 
-  <!-- Install and run indexDB -->
-
-    <script>
+    <!-- <script>
       const request = window.indexedDB.open("budgetTracker", 1);
 
       request.onupgradeneeded = ({ target }) => {
@@ -71,7 +72,7 @@
       request.onsuccess = event => {
         console.log(request.result);
       };
-    </script>
+    </script> -->
  
 </body>
 </html>
